@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.9313bad8.css",
-    "main.js": "./static/js/main.b3ac0c60.js",
-    "static/js/787.785a6fc8.chunk.js": "./static/js/787.785a6fc8.chunk.js",
-    "static/media/zz-top.png": "./static/media/zz-top.e2bcc4f10eff00cfd076.png",
-    "static/media/miam.mp3": "./static/media/miam.d1c9e05bd0eadad7f141.mp3",
-    "static/media/zz-bot.png": "./static/media/zz-bot.35e674b92512fe3007a2.png",
-    "index.html": "./index.html",
-    "main.9313bad8.css.map": "./static/css/main.9313bad8.css.map",
-    "main.b3ac0c60.js.map": "./static/js/main.b3ac0c60.js.map",
-    "787.785a6fc8.chunk.js.map": "./static/js/787.785a6fc8.chunk.js.map"
+    "main.css": "/static/css/main.9313bad8.css",
+    "main.js": "/static/js/main.de9337a1.js",
+    "static/js/787.785a6fc8.chunk.js": "/static/js/787.785a6fc8.chunk.js",
+    "static/media/zz-top.png": "/static/media/zz-top.e2bcc4f10eff00cfd076.png",
+    "static/media/miam.mp3": "/static/media/miam.d1c9e05bd0eadad7f141.mp3",
+    "static/media/zz-bot.png": "/static/media/zz-bot.35e674b92512fe3007a2.png",
+    "index.html": "/index.html",
+    "main.9313bad8.css.map": "/static/css/main.9313bad8.css.map",
+    "main.de9337a1.js.map": "/static/js/main.de9337a1.js.map",
+    "787.785a6fc8.chunk.js.map": "/static/js/787.785a6fc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9313bad8.css",
-    "static/js/main.b3ac0c60.js"
+    "static/js/main.de9337a1.js"
   ]
 }
