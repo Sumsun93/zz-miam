@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import { useState } from "react";
+import classNames from "classnames";
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import zzTop from './zz-top.png';
+import zzBot from './zz-bot.png';
+import miam from './miam.mp3';
+
+const App = () => {
+    const audio = new Audio(miam);
+    const [isPlaying, setIsPlaying] = useState(false);
+
+    const handleClick = () => {
+        audio.play();
+        setIsPlaying(true);
+
+        audio.onended = () => {
+            setIsPlaying(false);
+        }
+    };
+
+    return (
+        <div className="App">
+            <header className="App-header">
+                <button className={classNames("ZZ-Button", { "ZZ-Button-move": isPlaying })} onClick={handleClick}>
+                    <img src={zzTop}/>
+                    <img className={classNames({ "zz-bottom": isPlaying })} src={zzBot}/>
+                </button>
+            </header>
+        </div>
+    );
 }
 
 export default App;

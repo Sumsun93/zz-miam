@@ -28,11 +28,76 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes zz-bottom-talk {
+  from {
+    bottom: -13px;
+  }
+  10% {
+    bottom: 0;
+  }
+  20% {
+      bottom: -14px;
+  }
+30% {
+      bottom: 0;
+  }
+40% {
+      bottom: -12px;
+  }
+50% {
+      bottom: 0;
+  }
+60% {
+      bottom: -13px;
+  }
+70% {
+      bottom: 0;
+  }
+80% {
+      bottom: -12px;
+  }
+90% {
+      bottom: 0;
+  }
+100% {
+      bottom: -13px;
+  }
+}
+
+@keyframes zz-button-move {
   from {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  20% {
+    transform: rotate(2deg);
   }
+  40% {
+      transform: rotate(0deg);
+  }
+  60% {
+      transform: rotate(-2deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.ZZ-Button {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.zz-bottom {
+  position: relative;
+  bottom: 0;
+  animation: zz-bottom-talk infinite 1s;
+}
+
+.ZZ-Button-move {
+  animation: zz-button-move infinite .2s;
 }
